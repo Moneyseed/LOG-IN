@@ -1,19 +1,17 @@
 <!DOCTYPE html>
  <html>
  <head>
-	 <title>Log in</title>
+	 <title>MONEY SEED</title></title>
 	 <meta charset="UTF-8"/>
  </head>
 	 <body>
 	 
 	 <style>
-	 
-	 body  {
-	 background-image: linear-gradient(to right,  purple, purple, blue);
+	 body {
+  background-image: linear-gradient(to right,  purple, purple, blue);
   background-size: 100% 100%;
 }
-
-		div {
+	div {
     height: 200px;
     width: 400px;
     
@@ -22,17 +20,18 @@
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
-} 
+}	 
+	 
 	 .form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   max-width: 350px;
-  background-color: purple;
+  background-color:linear-gradient(to right,  purple, purple, blue) ;
   padding: 20px;
   border-radius: 20px;
   position: relative;
-		 align-items: centre;
+align-items: center;	 
 }
 
 .title {
@@ -71,12 +70,10 @@
 .message, .signin {
   color: rgba(88, 87, 87, 0.822);
   font-size: 14px;
-  color: black;
 }
 
 .signin {
   text-align: center;
-  color: black;
 }
 
 .signin a {
@@ -158,12 +155,12 @@
 }
 	 	 </style>
 	 
-	 
+	 <div>
 	 <form class="form">
-    <p class="title">LOGIN </p>
+    <p class="title">Register </p>
     <p class="message">Invest Now To Build You Wealth Tree. </p>
-      <hr>
-		 
+    <hr>
+            
     <label>
         <input required="" placeholder="" type="email" class="input">
         <span>Email</span>
@@ -173,10 +170,13 @@
         <input required="" placeholder="" type="password" class="input">
         <span>Password</span>
     </label>
-   
-   <button class="submit"> <a href="#"> Start Building Your Wealth </a> </button>
-    <p class="signin">Don,t have an account signup ? <a href=" https://moneyseed.github.io/moneyseed.ng/Signup.html" >Signup</a> </p>
+    <label>
+        <input required="" placeholder="" type="password" class="input">
+        <span>Confirm password</span>
+    </label>
+   <button class="submit"> <a href="#"> Submit </a> </button>
+    <p class="signin">Already have an acount ? <a href="#">Signin</a> </p>
 </form>
-<hr>
+	 </div>
 	 </body>
  </html>
