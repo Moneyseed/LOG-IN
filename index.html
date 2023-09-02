@@ -1,0 +1,128 @@
+
+	 <!DOCTYPE html>
+ <html>
+ <head>
+	 <title>LOG-IN</title>
+ </head>
+	 <body>
+	<style>
+	
+	 	 body  {
+	 background-image: linear-gradient(to right,  purple, purple, blue);
+  background-size: 100% 100%;
+}
+	
+	 .form-box {
+  max-width: 300px;
+  background: #f1f7fe;
+  overflow: hidden;
+  border-radius: 16px;
+  background-color: black;  
+  position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -150px;
+}
+
+.form {
+background-image: linear-gradient(to right,  purple, purple, blue) ;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+/*Form text*/
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: white;
+}
+
+/*Inputs box*/
+.form-container {
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  margin: 1rem 0 .5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  font-size: .9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+background-image: linear-gradient(to right,  purple, purple, blue) ;
+  padding: 16px;
+  font-size: .85rem;
+    color: white;
+  box-shadow: rgb(0 0 0 / 8%) 0 -1px;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+  transition: color .3s ease;
+}
+
+.form-section a:hover {
+  color: #005ce6;
+  text-decoration: underline;
+}
+
+/*Button*/
+.form button {
+  background-color: #0066ff;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.form button:hover {
+  background-color: #005ce6;
+}
+	
+	
+	</style> 
+	 
+	 
+	 
+	 <div class="form-box">
+<form class="form">
+    <span class="title">Log in</span>
+    <span class="subtitle">Log In To Your Account</span>
+    <div class="form-container">
+      <input required type="text" class="input" placeholder="Full Name">
+			<input required type="email" class="input" placeholder="Email">
+			<input required type="password" class="input" placeholder="Password">
+    </div>
+    <button>Log in</button>
+</form>
+<div class="form-section">
+  <p>Don,t Have an account? <a href="  https://moneyseed.github.io/SIGN-UP/ ">Sign-up</a> </p>
+</div>
+</div>
+	
+	 </body>
+ </html>
