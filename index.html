@@ -1,7 +1,7 @@
 	 <!DOCTYPE html>
  <html>
  <head>
-	 <title>LOG-IN</title>
+	 <title>Moneyseed||Log-In</title>
  </head>
 	 <body>
 	<style>
@@ -101,10 +101,53 @@ background-image: linear-gradient(to right,  red, black) ;
 .form button:hover {
   background-color: #005ce6;
 }
-	
+	 	 @keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.border {
+  background-image: linear-gradient(to left,purple, blue);
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+
+.border::before {
+  background-image: linear-gradient(to left, purple, blue);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100px;
+  width: 150px;
+  scale: 1.1;
+  filter: blur(15px);
+  animation: rotate 4s linear infinite;
+  border-radius: 100px;
+}
+
+.content {
+  background-color: #111;
+  width: 150px;
+  height: 100px;
+  border-radius: 19px;
+  scale: 0.9;
+}
+	 
 	
 	</style> 
-	 
+	  <div class="border"><div class="content"><img  class="content"src="P.png"></div></div>
+
 	 
 	 
 	 <div class="form-box">
@@ -116,10 +159,10 @@ background-image: linear-gradient(to right,  red, black) ;
 			<input required type="email" class="input" placeholder="Email">
 			<input required type="password" class="input" placeholder="Password">
     </div>
-    <button><a href="  https://moneyseed.github.io/DASHBOARD/ ">Log in </a></button>
+    <button>Log in</button>
 </form>
 <div class="form-section">
-  <p>Don,t Have an account? <a href=" https://moneyseed.github.io/SIGN-UP/ ">Sign-up</a> </p>
+  <p>Don,t Have an account? <a href=" SIGN-UP.html ">Sign-up</a> </p>
 </div>
 </div>
 	
